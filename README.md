@@ -229,11 +229,15 @@ https://docs.docker.com/docker-for-mac/install/
 
 ## Terraform
 
+Hashicorp [Terraform](https://www.terraform.io/) enables you to safely and predictably create, change, and improve infrastructure.
+
 ```bash
 brew install terraform
 ```
 
 ## Ansible
+
+[Ansible](https://www.ansible.com/) is an open source tool for automating configuration management, service orchestration, cloud provisioning and application deployment. Ansible is "agentless", using SSH to push changes from a single source to multiple remote resources. Commands can be invoked either ad hoc on the command line or via "playbooks" written in YAML.
 
 ```bash
 sudo pip install ansible
@@ -261,30 +265,28 @@ See:
 
 ## Kubernetes CLI
 
-https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl
+Kubectl is a command line interface for running commands against Kubernetes clusters.
 
 ```bash
 brew install kubernetes-cli
 ```
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl
 
 ## Other Apps
 
 This will install a list of productivity and office apps:
 
 ```bash
-brew cask install caffeine \
-google-chrome \
-safeincloud-password-manager \
-dropbox \
-the-unarchiver \
-aware \
-vlc \
-boostnote
+brew cask install \
+    aware \
+    boostnote \
+    caffeine \
+    dropbox \
+    google-chrome \
+    insomnia \
+    safeincloud-password-manager \
+    slack \
+    the-unarchiver \
+    vlc    
 ```
-
-
-
-
-
-
-
