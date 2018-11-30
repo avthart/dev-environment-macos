@@ -21,7 +21,8 @@ To install Homebrew run the following: terminal, hit Enter, and follow the steps
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-````
+```
+
 ### Cask
 
 [Homebrew-Cask](https://caskroom.github.io/) extends Homebrew and allows you to install large binary files via a command-line tool. 
@@ -30,7 +31,7 @@ You need Homebrew on your system to use Cask:
 
 ```bash
 brew tap caskroom/cask
-````
+```
 
 ## Quick Look Plugins
 
@@ -240,20 +241,14 @@ brew install terraform
 [Ansible](https://www.ansible.com/) is an open source tool for automating configuration management, service orchestration, cloud provisioning and application deployment. Ansible is "agentless", using SSH to push changes from a single source to multiple remote resources. Commands can be invoked either ad hoc on the command line or via "playbooks" written in YAML.
 
 ```bash
-sudo pip install ansible
+brew install ansible
 ```
 
 ## AWS CLI
 
-The primary distribution method for the AWS CLI on Linux, Windows, and macOS is pip, a package manager for Python that provides an easy way to install, upgrade, and remove Python packages and their dependencies.
+The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
 
-If you already have pip and a supported version of Python, you can install the AWS CLI with the following command:
-
-```bash
-pip install awscli --upgrade --user
-```
-
-Alternatively using the Homebrew package manager on mac OS:
+Install:
 
 ```bash
 brew install awscli
@@ -262,6 +257,17 @@ brew install awscli
 See:
 * https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 * https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+
+## Google Cloud SDK
+
+The Google Cloud SDK is a set of tools for the Google Cloud Platform and includes the `gcloud` command line tool.
+
+```bash
+brew cask install google-cloud-sdk
+```
+
+See:
+* https://cloud.google.com/sdk/docs/quickstart-macos
 
 ## Kubernetes CLI
 
@@ -272,6 +278,20 @@ brew install kubernetes-cli
 ```
 
 https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl
+
+In Docker for Mac 17.12 Edge (mac45) and higher, and 18.06 Stable (mac70) and higher, a standalone Kubernetes server is included that runs on your Mac, so that you can test deploying your Docker workloads on Kubernetes.
+
+It is also possible to use Minikube for your local Kubernetes environment. With Minikube you can configure another container, network-plugin, drivers, different kubernetes version, persistent volumes an other addons like ingress, efk, kube-dns, dashboard, etc.
+
+```bash
+brew cask install minikube
+```
+
+See:
+* https://kubernetes.io/docs/tasks/tools/install-kubectl/
+* https://kubernetes.io/docs/setup/minikube/
+* https://github.com/kubernetes/minikube/blob/master/docs/README.md
+
 
 ## Other Apps
 
