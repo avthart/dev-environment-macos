@@ -23,6 +23,21 @@ To install Homebrew run the following: terminal, hit Enter, and follow the steps
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Upgrade and cleanup packages:
+
+```bash
+brew update
+brew upgrade
+brew cleanup -s
+```
+
+This will:
+
+* update the local base of available packages and versions, to know what is updatable
+* installs new version of outdated packages
+* removes outdated downloads and remove old versions of installed formulae
+* allow you to keep only linked versions (by default, the last) and save some disk space
+
 ### Cask
 
 [Homebrew-Cask](https://caskroom.github.io/) extends Homebrew and allows you to install large binary files via a command-line tool. 
