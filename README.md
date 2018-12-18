@@ -284,14 +284,6 @@ brew cask install google-cloud-sdk
 See:
 * https://cloud.google.com/sdk/docs/quickstart-macos
 
-## Google Cloud SDK
-
-The [Google Cloud SDK](https://cloud.google.com/sdk/) is a set of tools for Cloud Platform. It contains gcloud, gsutil, and bq, which you can use to access Google Cloud Services.
-
-```bash
-brew cask install google-cloud-sdk
-```
-
 ## Kubernetes CLI
 
 Kubectl is a command line interface for running commands against Kubernetes clusters.
