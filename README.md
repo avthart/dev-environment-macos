@@ -114,7 +114,7 @@ git config --global user.email "your_email@youremail.com"
 
 ## SSH Config  
 
-There 's no $HOME/.ssh config when you did not use SSH before. Let's create this by "ssh-ing" to a server (e.g. Github).
+There 's no $HOME/.ssh config when you did not use SSH before. Start with "ssh-ing" to a server (e.g. github.com):
 
 ```bash
 ssh github.com
@@ -263,6 +263,14 @@ See:
 * https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 * https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
+## Google Cloud SDK
+
+The [Google Cloud SDK](https://cloud.google.com/sdk/) is a set of tools for Cloud Platform. It contains gcloud, gsutil, and bq, which you can use to access Google Cloud Services.
+
+```bash
+brew cask install google-cloud-sdk
+```
+
 ## Kubernetes CLI
 
 Kubectl is a command line interface for running commands against Kubernetes clusters.
@@ -275,7 +283,7 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl
 
 ## Other Apps
 
-This will install a list of productivity and office apps:
+This will install the following productivity and office apps:
 
 ```bash
 brew cask install \
