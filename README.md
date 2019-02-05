@@ -226,6 +226,14 @@ Go (also known as Golang) is an open source programming language maintained by G
 brew install golang
 ```
 
+## NodeJS
+
+[Node.js](https://nodejs.org) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+```bash
+brew install node
+```
+
 ## Vagrant
 
 Create and configure lightweight, reproducible, and portable development environments. [Vagrant](http://www.vagrantup.com/) is a tool for managing virtual machines via a simple to use command line interface.
