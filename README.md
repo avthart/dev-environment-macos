@@ -307,6 +307,16 @@ See:
 * https://kubernetes.io/docs/setup/minikube/
 * https://github.com/kubernetes/minikube/blob/master/docs/README.md
 
+## Kubernetes Developer Tools
+
+* [Helm](https://helm.sh/) - Package manager for Kubernetes.
+* [Kubectx](https://github.com/ahmetb/kubectx) - Switch faster between clusters and namespaces in kubectl interactively
+* [Stern](https://github.com/wercker/stern) - Multi pod and container log tailing for Kubernetes
+* [Skaffold](https://skaffold.dev/) - Handles the workflow for building, pushing and deploying your application. 
+
+```bash
+brew install kubernetes-helm kubectx stern skaffold
+```
 
 ## Other Apps
 
