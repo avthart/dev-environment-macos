@@ -1,6 +1,6 @@
 # Development Environment macOS
 
-This guide covers my peronal preferences and tools for a development environment on a new Mac. I have used [this](http://sourabhbajaj.com/mac-setup/) guide as a reference.
+This guide covers my peronal preferences and tools for a development environment on a new Mac. This guide is written in Markdown and generated with [VuePress](https://vuepress.vuejs.org/)
 
 ## Xcode
 Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS and tvOS.
